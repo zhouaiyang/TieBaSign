@@ -222,7 +222,7 @@ def main():
         favorites = get_favorite(i)
         for j in favorites:
             time.sleep(random.randint(1,5))
-             logger.info("打印数据")
+            logger.info("打印数据")
             logger.info(j["id"])
             logger.info(j["name"])
             client_sign(i, tbs, j["id"], j["name"])
